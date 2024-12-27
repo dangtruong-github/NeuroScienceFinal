@@ -10,6 +10,8 @@ conda activate group_3_neuro_env
 ```
 
 # Extract feature(s)
+You could skip this part and move to the next part as the result of this stage (8 csv files) are saved in the ```./data/csv``` folder.
+ 
 In the ```./data``` folder there is already train and test indices files, namely ```train.csv``` and ```test.csv```. We split train and test using script inside ```split_data.ipynb```.
 
 To extract the features, first, put all the data samples in the ```./data/raw``` folder. Then, run this code:
