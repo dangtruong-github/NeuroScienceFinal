@@ -1,7 +1,12 @@
-# Create environment
+# Create and access environment
 To create an environment, please use thia code. A conda environment named "group_3_neuro_env" would be created:
 ```
 conda env create -f environment.yml
+```
+
+After finishing creating the conda environment, run this code to access the environment
+```
+conda activate group_3_neuro_env
 ```
 
 # Extract feature(s)
