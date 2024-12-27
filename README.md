@@ -5,7 +5,7 @@ conda env create -f environment.yml
 ```
 
 # Extract feature(s)
-In the ```./data``` folder there is already train and test indices files, namely ```train.csv``` and ```test.csv```.
+In the ```./data``` folder there is already train and test indices files, namely ```train.csv``` and ```test.csv```. We split train and test using script inside ```split_data.ipynb```.
 
 To extract the features, first, put all the data samples in the ```./data/raw``` folder. Then, run this code:
 ```
