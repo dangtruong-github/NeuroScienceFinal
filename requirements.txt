@@ -1,0 +1,6 @@
+mne
+pandas
+numpy
+scikit-learn
+scipy
+xgboost

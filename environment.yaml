@@ -1,0 +1,11 @@
+name: group_3_neuro_env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - mne
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
+  - xgboost

@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.stats import entropy, kurtosis, skew
-import json
 
 def flatten_dict(d, parent_key='', sep='.'):
     items = []
@@ -116,8 +115,5 @@ def compute_fft_features(fft_amplitudes, freq):
     }
 
     features = flatten_dict(features)
-
-    with open("./test.json", "w") as f:
-        json.dump(features, f)
 
     return features
